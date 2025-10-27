@@ -49,3 +49,11 @@ A.shape, x.shape, torch.mv(A, x)#torch.mv用于计算矩阵和向量乘积(matri
 
 out:(torch.Size([5, 4]), torch.Size([4]), tensor([ 14.,  38.,  62.,  86., 110.]))
 ```
+
+6.欧几里得范数
+```python
+u = torch.tensor([3.0, -4.0])
+torch.norm(u)
+
+out:tensor(5.)
+```
