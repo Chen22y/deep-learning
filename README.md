@@ -1,6 +1,6 @@
 # deep-learning
 a summry of deep learning(b站跟着李沐练代码）
-## 一.05线性代数
+## 一.05线性代数[线性代数](https://www.bilibili.com/video/BV1eK4y1U7Qy?spm_id_from=333.788.videopod.episodes&vd_source=02b9007953dc5edadce0543b6bee4753）
 
 1.指定张量沿哪一个轴来通过求和降低维度
 ```python
@@ -10,8 +10,10 @@ a summry of deep learning(b站跟着李沐练代码）
    A_sum_axis1=A.sum(axis1)#从左到右压缩，沿行求和
    A_sum=A.sum(axis[0,1])#全部求和
    ```
+·形象原理：
+!(
 
-2.计算是保持轴不变
+2.计算时保持轴不变
 ```python
 sum_A = A.sum(axis=1, keepdims=True)
 sum_A
