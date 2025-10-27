@@ -12,7 +12,8 @@ a summry of deep learning(b站跟着李沐练代码）
    ```
 
 2.计算是保持轴不变
-```sum_A = A.sum(axis=1, keepdims=True)
+```python
+sum_A = A.sum(axis=1, keepdims=True)
 sum_A
 out:tensor([[ 6.],
             [22.],
@@ -22,7 +23,8 @@ out:tensor([[ 6.],
 ```
 
 3.某个轴计算A累计总和
-```A.cumsum(axis=0)
+```python
+A.cumsum(axis=0)
 out:tensor([[ 0.,  1.,  2.,  3.],
         [ 4.,  6.,  8., 10.],
         [12., 15., 18., 21.],
