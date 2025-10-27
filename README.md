@@ -31,3 +31,11 @@ out:tensor([[ 0.,  1.,  2.,  3.],
         [24., 28., 32., 36.],
         [40., 45., 50., 55.]])
 ```
+
+4.点积是相同位置的按元素乘积的和
+```python
+y = torch.ones(4, dtype=torch.float32)
+x, y, torch.dot(x, y)
+
+out:(tensor([0., 1., 2., 3.]), tensor([1., 1., 1., 1.]), tensor(6.))
+```
