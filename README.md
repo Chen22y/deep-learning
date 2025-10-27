@@ -1,6 +1,6 @@
 # deep-learning
 a summry of deep learning(b站跟着李沐练代码）
-# 一.05线性代数
+## 一.05线性代数
 
 1.指定张量沿哪一个轴来通过求和降低维度
 ```python
