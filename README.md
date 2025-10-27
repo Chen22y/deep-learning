@@ -39,3 +39,12 @@ x, y, torch.dot(x, y)
 
 out:(tensor([0., 1., 2., 3.]), tensor([1., 1., 1., 1.]), tensor(6.))
 ```
+
+5.矩阵向量积Ax
+是一个长度为m
+的列向量，其第i
+个元素是点积ai x
+```python
+A.shape, x.shape, torch.mv(A, x)#torch.mv用于计算矩阵和向量乘积
+(torch.Size([5, 4]), torch.Size([4]), tensor([ 14.,  38.,  62.,  86., 110.]))
+```
